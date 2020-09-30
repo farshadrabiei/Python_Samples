@@ -3,6 +3,6 @@ def create_database(database_path: str):
     pass
 
 
-def save_words_to_databae(database_path: str, words_list: list):
+def save_words_to_database(database_path: str, words_list: list):
     # TODO:Save the words to the database
     pass
