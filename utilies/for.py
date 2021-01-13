@@ -12,3 +12,7 @@ flat = [num for row in matrix for num in row]
 print(flat)
 
 sum([i * i for i in range(1000)]) ==  sum(map(lambda i: i*i, range(1000)))
+
+def f(x,y):
+    return x,y
+print(list([ f(m,i) for i in (t1,t2) for m in i]))
